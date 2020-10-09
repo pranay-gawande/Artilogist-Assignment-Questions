@@ -2,25 +2,34 @@ Question: Explain how you will build the dataset. If we tell you the requirement
 
 Solution: If the requirements are given then we can build the dataset using some basic steps which I have mentioned below. As we know big data isn’t mean having a huge amount of data say in terabytes and petabytes. It’s all about how we process it in a right way. The larger is the dataset that we are building, the harder it is make any insights out of it. General steps to build a dataset
 1. Articulate the problem early
-Before creating the dataset we must first know what we want to do with that data. For that we must know for what purpose we are collecting the data that is either for classification, regression, clustering or ranking. This will make our job easier. It is more likely that the business problem can easily be solved using this simple segmentation and we may start adapting to a dataset accordingly.
+Before creating the dataset we must first know what we want to do with that data. For that we must know for what purpose we are collecting the data that is either for 
+classification, regression, clustering or ranking. This will make our job easier. It is more likely that the business problem can easily be solved using this simple 
+segmentation and we may start adapting to a dataset accordingly.
 
 2. Data collection mechanisms establishment
-Converging all data streams is not always possible if there are many channels of engagement, channels of acquisition and retention but in most cases we can manage it. Therefore it is very important to establish the data collection mechanisms.
+Converging all data streams is not always possible if there are many channels of engagement, channels of acquisition and retention but in most cases we can manage it. 
+Therefore it is very important to establish the data collection mechanisms.
 
 3. Formatting the data so that we can make it consistent
-Formatting the data is sometimes referred to as the file format that we are using. So the dataset must be converted to the file format that fits the machine learning system best. The consistency of the data is also an important aspect in building a dataset. If the dataset is manually formatted by many people then we should make sure that it is properly done and is consistent.
+Formatting the data is sometimes referred to as the file format that we are using. So the dataset must be converted to the file format that fits the machine learning 
+system best. The consistency of the data is also an important aspect in building a dataset. If the dataset is manually formatted by many people then we should make sure 
+that it is properly done and is consistent.
 
 4. Data reduction
-Reducing the data is also an important part of building the dataset. Reducing the data is important so that we can reduce the storage space that is needed to store the data and also the time that is required to process that data.
+Reducing the data is also an important part of building the dataset. Reducing the data is important so that we can reduce the storage space that is needed to store the 
+data and also the time that is required to process that data.
 
 5. Cleaning the data
-While cleaning the data we should fill the missing values properly since it makes the massive difference while training that model. There are many ways of filling the missing values, we can put the average at that place or we can place the random value between the maximum and minimum value for that field.
+While cleaning the data we should fill the missing values properly since it makes the massive difference while training that model. There are many ways of filling the 
+missing values, we can put the average at that place or we can place the random value between the maximum and minimum value for that field.
 
 6. Data decomposition
-Some values in the dataset can be complex values and decomposing those values into multiple parts can help us in capturing more specific relationships in the data. This process of decomposition is actually the opposite process of reducing the data as we have to add new attributes to the data.
+Some values in the dataset can be complex values and decomposing those values into multiple parts can help us in capturing more specific relationships in the data. This 
+process of decomposition is actually the opposite process of reducing the data as we have to add new attributes to the data.
 
 7. Data rescaling
-This belongs to data normalization process. It aims at improving the quality of the dataset by simply reducing the dimensions of the data so that we can avoid the situation when some values overweight the other values.
+This belongs to data normalization process. It aims at improving the quality of the dataset by simply reducing the dimensions of the data so that we can avoid the 
+situation when some values overweight the other values.
 
 We can build the Dataset using these steps also if we want to label the data if needed we can use the image generator to do so.
 
