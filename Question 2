@@ -1,12 +1,80 @@
 Question: Detail Case study on Pinterest recommendation system? How it works, If you wanted to clone it how will you do it. Mention the process. Which recommendation 
 system does you like and why?
 
-Pinterest is one of the fast growing interest networks which have a significant amount of user engagement. One of the most important aspect of Pinterest is that it
-encourage pinning activity by simply recommending the relevant information to their users. The pintrest site chooses the picks because of the boards that we follow
-and the pins we post, the pins we click or the pins we like. Talking about the recommendation system pinterest uses the content based recommendation system that 
-recommends us new pins based on the pins we post, the pins we click and the pins we like. Related Pins is the Web scale recommender system that powers over 40% of 
-user engagement on Pinterest. We know that Pinterest is the visual discovery tool that is used for saving and also discovering content. Users save their content 
-that they find on the Web. Related Pins recommendations are also incorporated into several other parts of Pinterest, including the home feed, pin pages for 
-unauthenticated visitors, the “instant ideas” button for related ideas, emails, notifications, search results and also the “Explore” tab. Pinterest also uses the 
-ranking system to rank the content of the user. Thus pinterest also use the ranking system to rank the user content. 
+Pinterest is one of the fast growing interest network which has a significant amount of user engagement. One of the most important aspect of Pinterest is that 
+it encourage pinning activity by simply recommending the relevant information to their users. The pintrest site chooses the picks because of the boards that we 
+follow and the pins we post, the pins we click or the pins we like. Talking about the recommendation system pinterest uses the content based recommendation 
+system that recommends us new pins based on the pins we post, the pins we click and the pins we like. Related Pins is the Web scale recommender system that 
+powers over 40% of user engagement on Pinterest. We know that Pinterest is the visual discovery tool that is used for saving and also discovering content. 
+Users save their content that they find on the Web. Recently PinSaga has been deployed as the recommender system for Pinterest and everyone is very excited 
+about the change that has been brought to the recommender system. But the question is what is it and how it is related to GraphSAGE? The title of the PinSaga 
+reads as Graph Convolutional Neural Networks for Web Scale Recommender Systems. The three things that are mentioned in the title are
 
+1. Graph Convolutional Neural Networks
+Graph Convolutional Neural Networks (GCN) is a model in which both Neural Networks and graph comes into the picture. Graph Convolutional Neural Networks (GCN) 
+is useful for the feature representation of nodes in a graph using Neural Networks by taking into consideration of neighbours on k-hops. The convolution 
+mentioned here is not a normal convolution that we see in Deep Learning with images but the concept is same.
+
+2. Web Scale
+This part in the title is saying that they are developing a Graph Convolutional Neural Networks (GCN) for web scale which means it is developed for a large 
+graph and also it is a recommender system which means they are trying to generate some kind of representation of nodes in which they train one and then they 
+use the trained representation for recommending tasks for unseen nodes.
+
+3. Recommender System 
+Now PinSaga is a Recommender System which is being built on the top of GraphSAGE and this Recommender System develops high quality embedding’s of nodes using 
+the graph structure and the feature information of the node. This model is currently being deployed in Pinterest. In PinSaga they have modified the GraphSAGE 
+which is a variant of Graph Convolutional Neural Networks. The below are some important points about GraphSAGE.
+
+1. It is an example of unsupervised learning algorithm.
+
+2. We also need to consider the neighbours when we are computing a particular node u.
+
+3. The activation function used is sigmoid.
+
+There are six types of recommender systems
+
+1. Collaborative Recommender system
+
+2. Content based recommender system
+
+3. Demographic based recommender system
+
+4. Utility based recommender system
+
+5. Knowledge based recommender system
+
+6. Hybrid recommender system
+
+The recommender system that I like is Content based recommender system because it treats the recommendation as a user specific problem which is based on 
+classification and it learns a classifier for the users likes and dislikes. In this recommender system keywords are used to describe the items and a user 
+profile is built to indicate the type of item this user likes or dislikes.
+
+Create pinterest clone step by step
+
+1. Install rails, ruby and sublime in your system.
+
+2. Make sure you have Rails 5.2. Now in your terminal run the command `rails -v` in the console
+
+3. If you don't have the rails version 5.2. Run the command `gem update rails`
+
+3. Make sure that you have ruby version 2.3.1. Run the command `ruby -v`
+
+4. If you don't have the version 2.3.1. Then in your terminal run the command `rvm install 2.3.1` followed by `rvm use 2.3.1`
+
+5. Now in your terminal run the command `rails new pinteresting`
+
+5. Now cd into the app directory `cd pintresting`
+
+6. Start the server run the command `rails s`
+
+7. Go to `http://localhost:3000/`
+
+8. Generate scaffold `rails generate scaffold pin title:string description:text`
+
+9. Rake the database `rake db:migrate`
+
+10. Run the command `rails s`
+
+11. Run the command `rake routes`
+
+12. In a browser go to http://localhost:3000/pins. Here you can see the list of pins. You can view, edit and destroy them.
