@@ -1,0 +1,12 @@
+Question: Detail Case study on Pinterest recommendation system? How it works, If you wanted to clone it how will you do it. Mention the process. Which recommendation 
+system does you like and why?
+
+Pinterest is one of the fast growing interest networks which have a significant amount of user engagement. One of the most important aspect of Pinterest is that it
+encourage pinning activity by simply recommending the relevant information to their users. The pintrest site chooses the picks because of the boards that we follow
+and the pins we post, the pins we click or the pins we like. Talking about the recommendation system pinterest uses the content based recommendation system that 
+recommends us new pins based on the pins we post, the pins we click and the pins we like. Related Pins is the Web scale recommender system that powers over 40% of 
+user engagement on Pinterest. We know that Pinterest is the visual discovery tool that is used for saving and also discovering content. Users save their content 
+that they find on the Web. Related Pins recommendations are also incorporated into several other parts of Pinterest, including the home feed, pin pages for 
+unauthenticated visitors, the “instant ideas” button for related ideas, emails, notifications, search results and also the “Explore” tab. Pinterest also uses the 
+ranking system to rank the content of the user. Thus pinterest also use the ranking system to rank the user content. 
+
