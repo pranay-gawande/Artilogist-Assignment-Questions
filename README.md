@@ -1,4 +1,6 @@
-# lexicon-sentiment-analysis
+# Question 4 - Build a sentiment analysis notebook
+In sentiment analysis we use natural language processing, computational linguistics, text analysis, and biometrics to systematically identify, extract, quantify and study affective states and subjective information. It is widely used in review analysis, online shopping sites and social media. I have explained it with the help of simple example of twitter i.e. identifying the sentiments of the tweets using simple `newtwitter.csv` file.
+
 Simple example of using a lexicon to perform sentiment analysis
 
 # Usage
