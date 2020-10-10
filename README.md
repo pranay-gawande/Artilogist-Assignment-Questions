@@ -9,7 +9,7 @@ python ./doAnalysis.py
 
 # The lexicon
 
-I've created a simpler format of the lexicon, using the `subjectivity_clues_using_nlp/reformat.py` script. The resulting file is ``subjectivity_clues_using_nlp/lexicon_easy.csv`,
+I've created a simpler format of the lexicon, using the `reformat.py` script. The resulting file is ``lexicon_easy.csv`,
 and that's what the `doAnalysis.py` script uses.
 
 # Data
