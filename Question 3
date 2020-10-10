@@ -1,1 +1,43 @@
+Question: How can you turn your NLP chatbots or products into Cognitive (Something which can sense the feelings) Products. Describe the process in detail. Take 
+one Product like chatbots/Phone-bot(bot over a call)
 
+Solution: As we know that the chatbots are the future. It is easy to build a chatbot because we have so many platforms to build chatbots these days. With the help 
+of cognitive computing we can convert our chatbot to a cognitive product. As we know Cognitive computing is emerging as a primary technological mode and its main 
+staging ground is chatbots. Machine learning, artificial intelligence and big data analysis are the future of chatbot development which will provide a conversational,
+engaging front end chatbot experience. Retail and e-commerce, healthcare and insurance are the three areas where chatbots are behaving cognitively. Building a 
+cognitive chatbots is easy using Microsoft Azure and Cognitive Services. Below is the process that can be used to build a cognitive chatbots.
+
+1. In first step go to Azure Portal and create a resource -> AI + Cognitive Services -> Web App Bot
+
+2. In the second step in the Web App Bot enter all the fields that are mandatory i.e. Bot name, resource group, etc. After that click on 'Bot template' and 
+then choose a template that you want for your Bot then hit 'select' and 'create'.
+
+3. Meanwhile the bot is deploying go to new tab and log in to QnA Maker sign in with Microsoft account if required where we will be going to create a data 
+knowledge source for the chatbot we are building. First create a QnA Cognitive Service in QnA maker. Then create a knowledge base -> AI + Create QnA service.
+
+4. After that to set up the service we will be redirected to the Azure portal. Fill in the mandatory fields and then hit 'create'.
+
+5. Then the service will start deploying the chatbot when it is done refresh the QnA Maker page after that you should be able to select the appropriate Active 
+Directory ID, subscription, QnA service you just setup and then name your Knowledge Base as below.
+
+6. Now scroll to the steps 4 and 5 to give your QnA Service an FAQ site you want to crawl for the question and answer pairs.
+
+7. After some time the knowledge-base will be created and after that we will publish it.
+
+8. Once  you see the review screen hit publish button again. It will take some time for the knowledge-base to get published.
+
+9. Now we have our knowledge-base published now we will need our bot visible as a channel. For that we will need three values they are QnAKnowledgebaseId, 
+QnAEndpointHostName and QnAAuthKey which will be available on the screen once the knowledge-base is published.
+
+10. Meanwhile our web app chatbot has probably been deployed. Now from notifications hit 'Go to resource' for the web app chatbot we created in the first step.
+
+11. Now go to 'All App services settings' -> Application settings. Now scroll to the bottom of the application settings where you will see fields for 
+QnAKnowledgebaseId, QnAEndpointHostName and QnAAuthKey. After that enter the corresponding keys from the other QnA Maker window.
+
+12. After that save whatever we have done. Now click on 'Channels' in the blade of the resource and then press 'Get bot embed codes'.
+
+13. Now open the Web-Chat configuration page. In that configuration page click on 'show' to reveal one of the secret keys.
+
+14. Now copy the contents of the 'embed code' text box to somewhere else and then replace 'YOUR_SECRET_HERE' with a secret key.
+
+In this way we can build a cognitive chatbot with the help of Microsoft Azure and Cognitive Services.
