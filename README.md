@@ -22,7 +22,7 @@ Included in this repository is a dataset of tweets. Each row contains three colu
 2. The tweet ID.
 3. The tweet publish date
 
-The full dataset (i.e., `newtwitter.csv` contains 8,595 rows. A small sample of 100 rows (i.e., `newtwitter.small.csv`) is also provided.
+The full dataset i.e. `newtwitter.csv` contains 8,595 rows. A small sample of 100 rows i.e. `newtwitter.small.csv` is also provided.
 
 
 
