@@ -67,7 +67,7 @@ with open('newtwitter.csv', 'rb') as csvfile:
 lexicon = dict()
 
 # Read in the lexicon. 
-with open('subjectivity_clues_hltemnlp05/lexicon_easy.csv', 'rb') as csvfile:
+with open('lexicon_easy.csv', 'rb') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
         lexicon[row[0]] = int(row[1])
